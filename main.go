@@ -8,5 +8,5 @@ import (
 
 func main() {
 	a := strings.Fields(os.Args[1])
-	fmt.Println(len(a))
+	fmt.Println(len(a)+1)
 }
